@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+
+  
+<form>
+<div class="identite">
+  <h5></h5>
+  <input type="text" placeholder="Nom" id="name">
+  <input type="text" placeholder="Prénom" id="firstname">
+  <p></p>
+</div>
+
+  <fieldset>
+  
+    <div class="civilite">
+      <label for="homme">Homme</label>
+      <input type="radio" id="homme" name="civilite" value="Homme">
+   
+    </div>
+
+    <div class="civilite">
+      <label for="femme">Femme</label>
+      <input type="radio" id="femme" name="civilite" value="Femme">
+  
+    </div>
+
+    
+
+    <!-- <p>Vous devez remplir au moins 2 caractères</p> -->
+    
+</fieldset>
+
+<p class="messcivi"></p>
+
+
+<div class="seleCivi"></div>
+
+<select name="dropdown" id="dropdown" title="Test">
+  <option>Quel super héro êtes vous ?</option>
+  <option>Batman</option>
+  <option>Superman</option>
+  <option>Spiderman</option>
+  <option>Hulk</option>
+  <option>Captain Marval</option>
+  <option>Black Widow</option>
+ 
+</select>
+
+<p class="messhero"></p>
+
+<div class="alert"></div>
+
+<div class="boxcgv">
+ 
+  <label for="cgv">Vous devez valider la politique d’utilisation</label>
+  <input type="checkbox" id="cgv">
+
+</div>
+
+<div class="alertCheckbox"></div>
+
+<div class="postule">
+  <label for="response">Dites-nous pourquoi vous voulez postuler chez My Awesome Startup ?</label>
+  <textarea name="message" id="response" cols="30" rows="10"></textarea>
+</div>
+
+<div class="alertextbox"></div>
+
+<div>
+  <h4 id="textToColor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam in natus non harum, ducimus commodi consequuntur atque quaerat vitae nesciunt suscipit, esse earum debitis facilis? Eligendi reprehenderit tempore repudiandae ducimus.</h4>.
+  Quelle est votre couleur préféré entre toutes ces couleurs ?
+<div class="btnsColor">
+  <button type="button" id="vert">VERT</button>
+  <button type="button" id="jaune">JAUNE</button>
+  <button type="button" id="bleu">BLEU</button>
+</div>
+<div class="alertcolor"></div>
+
+<fieldset>
+  <div class="cv">
+  <input type="radio" id="toSendPA" >
+  <label for="toSendPA">Je veux envoyer :</label>
+</div>
+</fieldset>
+
+
+
+
+<div>
+  <button type="button" id="validation">valider</button>
+
+</form>
+</div>
+
+  <script src="index.js"></script>
+</body>
+</html>

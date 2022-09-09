@@ -1,0 +1,120 @@
+
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 400px;
+  margin: auto;
+  padding: 20px 0;
+
+}
+
+p  {
+  background-color: red;
+  color: white;
+  text-align: center;
+  width: 100%;
+ 
+}
+
+input {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+
+
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  border: none;
+}
+
+
+
+.civilite {
+  display: flex;
+  align-items: center;
+}
+
+.civilite input {
+  width: 10px;
+  margin-right: 40px;
+}
+
+.civilite label {
+  width: 60px;
+}
+
+#dropdown {
+  display: flex;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.boxcgv {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  margin: auto;
+}
+
+.boxcgv label {
+  width: 75%;
+}
+
+.boxcgv input {
+  width: 5%;
+}
+
+.postule {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  text-align: center;
+  margin: 20px auto;
+
+}
+
+.postule label {
+  width: 100%;
+}
+
+.postule input {
+  width: 100%;
+}
+
+#validation {
+  width: 50%;
+  margin: auto;
+}
+
+.vert {
+  color: green;
+}
+
+.jaune {
+  color : yellow;
+}
+
+.bleu {
+  color : blue
+}
+
+
+
